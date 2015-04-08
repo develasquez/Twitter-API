@@ -172,7 +172,7 @@ var mySelf = {
 	},
     go:function(){
         var params = {
-                screen_name: 'teinforma_cl'
+                screen_name: <Your Name>
             };
             var paramsToCopy = {
                 screen_name: 'PDI_CHILE',
@@ -185,7 +185,7 @@ var mySelf = {
             paramsObj.paramsToCopy = paramsToCopy;
             setTimeout(function(mySelf,paramsObj){
                 mySelf.growth(params, paramsToCopy);    
-            },0,mySelf,paramsObj);
+            },min5,mySelf,paramsObj);
     }
 };
 //module.exports = mySelf;
