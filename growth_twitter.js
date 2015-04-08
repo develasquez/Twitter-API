@@ -179,7 +179,10 @@ var mySelf = {
                 include_entities: false
             };
             console.log("Copiando a: ", paramsToCopy.screen_name);
-            mySelf.unfollowNoFans(params);
+            
+
+            //PARA DEJAR DE SEGUIR A LOS QUE NO TE SIGUEN SI YA ALCANSASTE EL LIMITE, DESCOMENTA LA SIG. LINEA
+            //mySelf.unfollowNoFans(params);
             var paramsObj = {};
             paramsObj.params = params;
             paramsObj.paramsToCopy = paramsToCopy;
